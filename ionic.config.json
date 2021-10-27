@@ -1,0 +1,7 @@
+{
+  "name": "GeoProjekat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
