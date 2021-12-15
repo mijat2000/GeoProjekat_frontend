@@ -8,11 +8,23 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { StartLogoComponent } from './start-logo/start-logo.component';
+import { RegisterComponent } from './register/register.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, StartLogoComponent],
+  declarations: [
+    AppComponent,
+    LoginComponent,
+    StartLogoComponent,
+    RegisterComponent,
+  ],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    FormsModule,
+  ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })

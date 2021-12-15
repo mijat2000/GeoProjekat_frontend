@@ -1,5 +1,49 @@
-.center {
+.page {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+h6 {
+    margin: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.input-login {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    width: 80vw;
+    max-width: 300px;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 20px;
+    font-size: 15px;
+    --background: white;
+    --color: rgb(82, 82, 82);
+    --placeholder-color: rgb(82, 82, 82);
+}
+
+#login-button {
+    margin: 25px auto;
+    width: 100px;
+    --border-radius: none;
+    --background: black;
+    --color: white;
+}
+
+#register-link {
+    color: rgb(218, 156, 132);
+}
+
+p {
+    margin: 5px;
+    font-size: 12px;
+    text-align: center;
 }
